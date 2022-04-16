@@ -9,7 +9,8 @@
     "readme": "esno ./scripts/readme.ts",
     "build": "esno ./scripts/build.ts",
     "translate": "esno ./scripts/translate-cli.ts",
-    "utils:release": "pnpm -C utils release"
+    "utils:release": "pnpm -C utils release",
+    "type-check": "tsc --noEmit"
   },
   "devDependencies": {
     "@antfu/eslint-config-ts": "^0.12.1",
